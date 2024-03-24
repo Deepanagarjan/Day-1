@@ -1,0 +1,72 @@
+IP,HTTP,MAC
+
+1. IP Address: An IP Address or Internet Protocol Address, is a unique number that identifies a device on the internet or a local network. IP Addresses are typically assigned by an internet service provider(ISP).
+
+-> IP Address serves two main functions:
+
+1. Network Interface Identification
+2. Location Addressing
+-> IP Addresses are generated using two main versions of internet protocol(IP) IPV4 and IPV6. IPV6 addresses are longer and can have trillions available. IPV4 addresses are only 32bits, while IPV6 addresses are made up to 128bits.
+-> We can find IP Address in Windows by using the command prompt:
+1. Search for “cmd” in the windows search
+2. Click to get command line
+you can also find your IP Address by going to “Settings”, selecting “Wi-fi” and tapping on the network that you’re connected to. You can find your IP under “IPV4 Address”.
+2. Port: A port in computer networking is a number that identifies a connection endpoint and directs data to a specific service.
+They help computers sort the network traffic they receive.
+-> Ports are software based and managed by a computer’s operating system. Each port is associated with a specific process or service.
+Port numbers are divided into three ranges.
+1. Well-known ports: Also known as system ports, these are numbered from 0 to 1023. They are standardized and widely recognized across the networking industry. They are typically associated with commonly used services and aplications
+For example, port 80 is used for HTTP web traffic.
+2. Registered ports: One of the three ranges of port numbers.
+3. Dynamic or private ports: One of the three ranges of port numbers
+-> Other types of ports include:
+4. Ephemeral ports: Temporary network communication endpoints used to establish a connection with a server application over internet/local network.
+5. Serial ports: A serial communication interface through which information transfers in or out sequentially one bit at a time.
+6. Ethernet ports: Used to connect ethernet cables to computer.
+3. HTTP Methods: The HTTP is a collection of request methods that specify what action to perform on a specific resource.
+
+The most commonly used HTTP methods are GET,POST,PUT,PATCH,DELETE. These methods correspond to create, read, update, delete(CRUD) operations.
+
+-> GET method is used to retrieve data from a web server by specifying parameters in the URL portion of the request.
+
+GET is one of the most popular HTTP request techniques.
+
+-> POST is used to send data to a server to create or update a resource. POST requests are never cached and do not remain in the browser history.
+
+-> PUT is used to replace all current representations of the target resources with request payload.
+
+-> DELETE is used to remove data from a database. For example, a DELETE request to the /product/123 endpoint will permanently remove the product with an ID of 123 from database.
+
+4. MAC Address: A MAC Address(Media Access Address) is a 12-character alphanumeric identifier that uniqely identifies a network interface controller(NIC).
+
+-> MAC Address are used in many IEEE 802 networking technologies, including WI-FI, Ethernet, Bluetooth. They are often found on a device’s network Interface card(NIC).
+
+-> A device can have multiple MAC Addresses because each network interface requires a different address.
+
+-> For example, desktops typically only have one MAC address, but laptops often have two.
+
+Steps to find MAC Addrees on Windows:
+
+1. Press windows key.
+
+2. Enter “cmd”
+
+3. Click the command prompt icon to open it.
+
+4. Type “ipconfig/all” and press “Enter”.
+
+5. Look for “Physical Address” or “MAC Address” entry under the network adapter.
+
+Steps to find MAC Address on a MAC:
+
+1. Open Apple Menu
+
+2. Click System Settings.
+
+3. Click Network in the left panel.
+
+4. Select Wi-Fi or Ethernet.
+
+5. Click Details next to the network you’ve connected to.
+
+6. Scroll down to see your MAC local IP Address.
