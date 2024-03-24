@@ -1,0 +1,35 @@
+Variables:- 
+=>It is a name given to memory location.
+
+syntax:-
+var/let/const variablename;
+example:-
+var a;
+
+Operators:- 
+1.Arithmetic Operators:-  +,-,*,/,%
+2.Assignment Operators:- =
+3.conditional Operators:- <,>,<=,>=,!=,==,===
+=> the return type of conditional Operators is true/false.
+4.Logical Operators:- && , ||
+=>the return type of Logical Operators is true/false.
+
+Printing:- 
+=>console.log()
+
+Datatypes:-
+1.Number :- Any numbers including float values
+2.String :- Anything enclosed within " "
+3.Boolean :- (true or false)
+=> to check the type of the value we will use typeof
+syntax:- 
+typeof(variablename)
+example:-
+var a =5;
+console.log(typeof(a));
+
+parseint:- +"55"+6 = 61
+
+difference between == and ===
+== checks for value if it is same means it returns true.
+=== checks for both value and Datatype if it is same means it returns true.
